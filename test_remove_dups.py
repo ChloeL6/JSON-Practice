@@ -17,14 +17,12 @@ test3 = [1,2,3,4,4,3,2,1,"h", "l", "m", "t","m","h","t"]
 test4 = []
 test5 = "astr"
 
-
 @pytest.mark.parametrize("sample, list_no_dups", [
     (test1, [1,2,3,4]),
     (test2, ["a", "b", "c", "d"]),
     (test3, [1, 2, 3, 4, "h", "l", "m", "t"]),
     (test4, None),
     (test5, None),
-
 ])
 
 def test_remove_dups(sample, list_no_dups):
