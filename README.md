@@ -1,4 +1,4 @@
-# JSON Practice
+# JSON, Advanced Python, and Working with files
 
 #### By Chloe (Yen Chi) Le
 
@@ -24,7 +24,8 @@ Generate a list of random color using faker, remove duplications and write the c
     * source venv/bin/activate
     * pip install -r requirements.txt
     * code .
-* After VS Code open, go to main.py file, and click the "execute cell" (Ctrl+Alt+Enter) on the top left of each code cell to run the code
+* After VS Code open, go to main.py file, and click the "execute cell" (Ctrl+Alt+N) on the top right of VS code to run code
+* Result will be shown under OUTPUT
 
 
 ## Known Bugs
